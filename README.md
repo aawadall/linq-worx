@@ -1,4 +1,7 @@
 # linq-worx
+
+please go directly to folder 17_Sept 
+
 ## Objectives 
 * Lambda Expressions 
 * Extension Methods 
