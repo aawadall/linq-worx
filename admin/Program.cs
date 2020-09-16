@@ -6,9 +6,9 @@ namespace admin
 {
     class Program
     {
-        private static readonly int maxFebonacciIndex = 25;
+        private static readonly int maxFebonacciIndex = 40;
         private static readonly double signalToNoise = 0.1f;
-        private static readonly string filePath = "./input.dat";
+        private static readonly string filePath = "../17_sept/input.dat";
 
         static void Main(string[] args)
         {
@@ -24,23 +24,25 @@ namespace admin
             
         }
 
-        private static List<int> GenerateFebonacciAndNoise(int maxFebonacciIndex, double signalToNoise)
+        private static List<long> GenerateFebonacciAndNoise(int maxFebonacciIndex, double signalToNoise)
         {
             int febIdx = 0;
-            var result = new List<int>();
+            var result = new List<long>();
             var rnd = new Random();
             var signal = GetNextFeb();
+            long last = 1;
             while(febIdx < maxFebonacciIndex) 
             {
                 if(rnd.NextDouble() < signalToNoise)
                 { // real signal 
                     signal.MoveNext();
-                    result.Add(signal.Current);
+                    last = signal.Current;
+                    result.Add(last);
                     febIdx++;
                 }
                 else 
                 { // noise 
-                    result.Add(rnd.Next(maxFebonacciIndex*maxFebonacciIndex));
+                    result.Add(rnd.Next((int)last,(int)last+5));
                 }
                 
             }
@@ -48,11 +50,11 @@ namespace admin
             return result;
         }
 
-        static public System.Collections.Generic.IEnumerator<int> GetNextFeb()
+        static public System.Collections.Generic.IEnumerator<long> GetNextFeb()
         {
-            int current = 1;
-            int next = 1;
-            int swap;
+            long current = 1;
+            long next = 1;
+            long swap;
             while (true)
             {
                 yield return current;
