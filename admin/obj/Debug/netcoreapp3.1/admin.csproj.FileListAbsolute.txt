@@ -1,0 +1,13 @@
+D:\Projects\dotNet\linq-worx\admin\bin\Debug\netcoreapp3.1\admin.exe
+D:\Projects\dotNet\linq-worx\admin\bin\Debug\netcoreapp3.1\admin.deps.json
+D:\Projects\dotNet\linq-worx\admin\bin\Debug\netcoreapp3.1\admin.runtimeconfig.json
+D:\Projects\dotNet\linq-worx\admin\bin\Debug\netcoreapp3.1\admin.runtimeconfig.dev.json
+D:\Projects\dotNet\linq-worx\admin\bin\Debug\netcoreapp3.1\admin.dll
+D:\Projects\dotNet\linq-worx\admin\bin\Debug\netcoreapp3.1\admin.pdb
+D:\Projects\dotNet\linq-worx\admin\obj\Debug\netcoreapp3.1\admin.csprojAssemblyReference.cache
+D:\Projects\dotNet\linq-worx\admin\obj\Debug\netcoreapp3.1\admin.AssemblyInfoInputs.cache
+D:\Projects\dotNet\linq-worx\admin\obj\Debug\netcoreapp3.1\admin.AssemblyInfo.cs
+D:\Projects\dotNet\linq-worx\admin\obj\Debug\netcoreapp3.1\admin.csproj.CoreCompileInputs.cache
+D:\Projects\dotNet\linq-worx\admin\obj\Debug\netcoreapp3.1\admin.dll
+D:\Projects\dotNet\linq-worx\admin\obj\Debug\netcoreapp3.1\admin.pdb
+D:\Projects\dotNet\linq-worx\admin\obj\Debug\netcoreapp3.1\admin.genruntimeconfig.cache
