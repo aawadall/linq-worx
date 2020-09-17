@@ -7,7 +7,7 @@ namespace admin
     class Program
     {
         private static readonly int maxFebonacciIndex = 40;
-        private static readonly double signalToNoise = 0.1f;
+        private static readonly double signalToNoise = 0.2f;
         private static readonly string filePath = "../17_sept/input.dat";
 
         static void Main(string[] args)
@@ -52,7 +52,7 @@ namespace admin
 
         static public System.Collections.Generic.IEnumerator<long> GetNextFeb()
         {
-            long current = 1;
+            long current = 0;
             long next = 1;
             long swap;
             while (true)
