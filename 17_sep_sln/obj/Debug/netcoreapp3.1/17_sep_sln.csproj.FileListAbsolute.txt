@@ -1,0 +1,15 @@
+D:\Projects\dotNet\linq-worx\17_sep_sln\bin\Debug\netcoreapp3.1\17_sep_sln.exe
+D:\Projects\dotNet\linq-worx\17_sep_sln\bin\Debug\netcoreapp3.1\17_sep_sln.deps.json
+D:\Projects\dotNet\linq-worx\17_sep_sln\bin\Debug\netcoreapp3.1\17_sep_sln.runtimeconfig.json
+D:\Projects\dotNet\linq-worx\17_sep_sln\bin\Debug\netcoreapp3.1\17_sep_sln.runtimeconfig.dev.json
+D:\Projects\dotNet\linq-worx\17_sep_sln\bin\Debug\netcoreapp3.1\17_sep_sln.dll
+D:\Projects\dotNet\linq-worx\17_sep_sln\bin\Debug\netcoreapp3.1\17_sep_sln.pdb
+D:\Projects\dotNet\linq-worx\17_sep_sln\obj\Debug\netcoreapp3.1\17_sep_sln.csprojAssemblyReference.cache
+D:\Projects\dotNet\linq-worx\17_sep_sln\obj\Debug\netcoreapp3.1\17_sep_sln.AssemblyInfoInputs.cache
+D:\Projects\dotNet\linq-worx\17_sep_sln\obj\Debug\netcoreapp3.1\17_sep_sln.AssemblyInfo.cs
+D:\Projects\dotNet\linq-worx\17_sep_sln\obj\Debug\netcoreapp3.1\17_sep_sln.csproj.CoreCompileInputs.cache
+D:\Projects\dotNet\linq-worx\17_sep_sln\obj\Debug\netcoreapp3.1\17_sep_sln.dll
+D:\Projects\dotNet\linq-worx\17_sep_sln\obj\Debug\netcoreapp3.1\17_sep_sln.pdb
+D:\Projects\dotNet\linq-worx\17_sep_sln\obj\Debug\netcoreapp3.1\17_sep_sln.genruntimeconfig.cache
+D:\Projects\dotNet\linq-worx\17_sep_sln\bin\Debug\netcoreapp3.1\System.Interactive.dll
+D:\Projects\dotNet\linq-worx\17_sep_sln\obj\Debug\netcoreapp3.1\17_sep_sln.csproj.CopyComplete

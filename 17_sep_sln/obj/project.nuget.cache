@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LvomA+MJunhHyOq0mg622zHHs8mO8yP24giF8KIkMxgtm+ky9gfHzp1XvboBOEpUXew+Eak+Iv1v7MOILZb9Cw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\dotNet\\linq-worx\\17_sep_sln\\17_sep_sln.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aawad\\.nuget\\packages\\system.interactive\\4.1.1\\system.interactive.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

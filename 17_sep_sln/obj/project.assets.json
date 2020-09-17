@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "System.Interactive/4.1.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.Interactive.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Interactive/4.1.1": {
+      "sha512": "pL6aZm6Im/KSpQADvJMr3sK5d/Q/iQbC4TQ2zQfiDZ+qzAskuMgrtgnCheAwLX1vC5YDTXpXnVjeMzfxUZzfjQ==",
+      "type": "package",
+      "path": "system.interactive/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Interactive.dll",
+        "lib/net45/System.Interactive.xml",
+        "lib/netstandard1.0/System.Interactive.dll",
+        "lib/netstandard1.0/System.Interactive.xml",
+        "lib/netstandard2.0/System.Interactive.dll",
+        "lib/netstandard2.0/System.Interactive.xml",
+        "ref/netcoreapp2.0/System.Interactive.dll",
+        "ref/netcoreapp2.0/System.Interactive.xml",
+        "ref/netstandard1.0/System.Interactive.dll",
+        "ref/netstandard1.0/System.Interactive.xml",
+        "ref/netstandard2.1/System.Interactive.dll",
+        "ref/netstandard2.1/System.Interactive.xml",
+        "system.interactive.4.1.1.nupkg.sha512",
+        "system.interactive.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "System.Interactive >= 4.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aawad\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\dotNet\\linq-worx\\17_sep_sln\\17_sep_sln.csproj",
+      "projectName": "17_sep_sln",
+      "projectPath": "D:\\Projects\\dotNet\\linq-worx\\17_sep_sln\\17_sep_sln.csproj",
+      "packagesPath": "C:\\Users\\aawad\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\dotNet\\linq-worx\\17_sep_sln\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\aawad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "System.Interactive": {
+            "target": "Package",
+            "version": "[4.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
