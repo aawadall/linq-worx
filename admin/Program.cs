@@ -6,8 +6,8 @@ namespace admin
 {
     class Program
     {
-        private static readonly int maxFebonacciIndex = 40;
-        private static readonly double signalToNoise = 0.2f;
+        private static readonly int maxFebonacciIndex = 50;
+        private static readonly double signalToNoise = 0.5f;
         private static readonly string filePath = "../17_sept/input.dat";
 
         static void Main(string[] args)
@@ -33,18 +33,19 @@ namespace admin
             long last = 1;
             while(febIdx < maxFebonacciIndex) 
             {
+                signal.MoveNext();
                 if(rnd.NextDouble() < signalToNoise)
                 { // real signal 
-                    signal.MoveNext();
+                    
                     last = signal.Current;
                     result.Add(last);
-                    febIdx++;
+                    
                 }
                 else 
                 { // noise 
                     result.Add(rnd.Next((int)last,(int)last+5));
                 }
-                
+                febIdx++;
             }
 
             return result;
