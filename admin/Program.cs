@@ -9,7 +9,7 @@ namespace admin
         private static readonly int maxFebonacciIndex = 50;
         private static readonly double signalToNoise = 0.5f;
         private static readonly string filePath = "../17_sept/input.dat";
-
+        private static readonly string feb_seq = "../17_sept/feb.dat";
         static void Main(string[] args)
         {
             Console.WriteLine("Generating Febonacci + Noise");
@@ -22,6 +22,14 @@ namespace admin
                 }
             }
             
+            var pureFeb = GenerateFebonacciAndNoise(maxFebonacciIndex, 1.0);
+            using (StreamWriter outputFile = new StreamWriter(feb_seq))
+            {
+                foreach (var item in pureFeb)
+                {
+                    outputFile.WriteLine(item);
+                }
+            }
         }
 
         private static List<long> GenerateFebonacciAndNoise(int maxFebonacciIndex, double signalToNoise)
